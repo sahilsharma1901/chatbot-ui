@@ -306,8 +306,11 @@ button {
     font-weight: 500;
     opacity: 0;
     transform: translateY(20px);
+}
+
+.chatbot-CTA-btn.animated{
     animation: jump-in 1.2s cubic-bezier(0.23, 1, 0.320, 1) forwards;
-    animation-delay: 10.25s;
+    animation-delay: 8.25s;
 }
 
 @keyframes fade-in {
