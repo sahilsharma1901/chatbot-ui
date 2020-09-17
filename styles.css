@@ -313,6 +313,15 @@ button {
     animation-delay: 8.25s;
 }
 
+.chatbot-CTA-btn:hover{
+    background: linear-gradient(180deg, #FF7600 0%, #FF5C00 100%);
+    color: #fff;
+}
+
+.chatbot-CTA-btn:hover .CTA-icon svg path{
+    fill: #fff;
+}
+
 @keyframes fade-in {
     to {
         opacity: 1;
